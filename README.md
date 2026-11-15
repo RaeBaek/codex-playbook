@@ -9,8 +9,9 @@ Android와 크로스·멀티 플랫폼 작업에서는 해당 프로젝트의 �
 ## 스킬
 
 - [iOS MR 제출 전 점검](./skills/ios-mr-preflight/SKILL.md) — 브랜치 변경 내용을 검토하고, 한국어 MR 설명 초안과 수동 검증 체크리스트를 작성합니다.
+- [Swift 변경 코드 리뷰](./skills/swift-change-review/SKILL.md) — Swift 변경 코드에서 의도와 다른 동작이나 기존 기능의 회귀를 찾습니다.
 
-로컬 Codex에서 사용하려면 `skills/ios-mr-preflight/` 폴더를 `~/.codex/skills/`에 복사한 뒤, 새 채팅에서 `$ios-mr-preflight`를 호출하세요.
+로컬 Codex에서 사용하려면 `skills/` 아래의 원하는 스킬 폴더를 `~/.codex/skills/`에 복사한 뒤, 새 채팅에서 `$ios-mr-preflight` 또는 `$swift-change-review`를 호출하세요.
 
 ## 주요 작업 원칙
 
