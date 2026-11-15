@@ -6,6 +6,12 @@ Android와 크로스·멀티 플랫폼 작업에서는 해당 프로젝트의 �
 - [한국어 지침](./AGENTS.ko.md) — 제가 사용하는 기본 버전
 - [English instructions](./AGENTS.en.md) — 같은 지침의 영어 버전
 
+## 스킬
+
+- [iOS MR 제출 전 점검](./skills/ios-mr-preflight/SKILL.md) — 브랜치 변경 내용을 검토하고, 한국어 MR 설명 초안과 수동 검증 체크리스트를 작성합니다.
+
+로컬 Codex에서 사용하려면 `skills/ios-mr-preflight/` 폴더를 `~/.codex/skills/`에 복사한 뒤, 새 채팅에서 `$ios-mr-preflight`를 호출하세요.
+
 ## 주요 작업 원칙
 
 - 기존 구현과 호출 흐름을 파악한 뒤, 프로젝트의 구조와 코딩 스타일을 유지하면서 필요한 범위만 수정합니다.
