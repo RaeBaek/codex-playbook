@@ -109,23 +109,7 @@ fix: prevent tab switching for single service
 
 # Pull Requests
 
-- When the user asks to create or write a PR, use the following template:
-
-```markdown
-### 요약
--
-
-### 주요 변경 사항
--
-
-### 테스트 항목
-- [ ]
-
-### 참고
-- 현재 브랜치:
-- 기준 브랜치:
-- 변경 범위:
-```
+- For iOS projects, use the `ios-mr-preflight` skill when asked to write a PR/MR description or perform a pre-submission check. Follow that skill for template selection and the writing procedure.
 
 - Base the description on the actual changes and confirmed information.
 - If branch or change-scope information cannot be confirmed, mark it as unverified rather than guessing.
