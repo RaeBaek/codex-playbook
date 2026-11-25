@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ios-dev-playbook",
+  "version": "0.1.0",
+  "description": "Swift 변경 코드 리뷰와 iOS PR/MR 제출 전 점검을 위한 스킬 모음",
+  "author": {
+    "name": "RaeBaek"
+  },
+  "repository": "https://github.com/RaeBaek/codex-playbook",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "iOS Dev Playbook",
+        "shortDescription": "Swift 코드 리뷰와 iOS PR/MR 제출 전 점검",
+        "developerName": "RaeBaek",
+        "category": "Productivity"
+      }
+    }
+  }
+}

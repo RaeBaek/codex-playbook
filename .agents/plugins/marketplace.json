@@ -1,0 +1,20 @@
+{
+  "name": "codex-playbook",
+  "interface": {
+    "displayName": "Codex Playbook"
+  },
+  "plugins": [
+    {
+      "name": "ios-dev-playbook",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
